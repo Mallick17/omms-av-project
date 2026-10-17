@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact OMM Audio Visuals — Get a Quote Today</title>
+    <meta name="description"
+        content="Expert AV equipment rentals in Bangalore. Get a quote quickly via WhatsApp, phone, or email for your event needs." />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-inner">
+                <a href="index.html" class="nav-logo">
+                    <img src="Gold_M_Audio_Visuals_Logo.png" alt="OMM Audio Visuals Logo" class="logo-img">
+                    <div class="logo-text">OMM <span>Audio Visuals</span></div>
+                </a>
+                <div class="nav-links">
+                    <a href="index.html">Home</a><a href="equipment.html">Equipment</a><a
+                        href="offers.html">Offers</a><a href="events.html">Events</a><a
+                        href="corporate.html">Corporate</a><a href="contact.html" class="active">Contact</a>
+                </div>
+                <a href="https://wa.me/917008286477?text=Hi%2C%20I%20need%20AV%20equipment%20for%20my%20event."
+                    target="_blank" class="btn btn-wa nav-cta"><span>📲</span> Book via WhatsApp</a>
+                <div class="hamburger" onclick="toggleMenu()"><span></span><span></span><span></span></div>
+            </div>
+            <div class="mobile-menu" id="mobile-menu">
+                <a href="index.html">Home</a><a href="equipment.html">Equipment</a><a href="offers.html">Offers</a><a
+                    href="events.html">Events</a><a href="corporate.html">Corporate</a><a
+                    href="contact.html">Contact</a>
+                <a href="https://wa.me/917008286477?text=Hi%2C%20I%20need%20AV%20equipment%20for%20my%20event."
+                    target="_blank" class="btn btn-wa" style="margin-top:8px; justify-content:center;">📲 Book via
+                    WhatsApp</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="page-hero">
+        <div class="container">
+            <div class="page-hero-breadcrumb"><a href="index.html">Home</a><span>/</span><span
+                    class="current">Contact</span></div>
+            <div class="badge">Quick Replies · Bangalore Support</div>
+            <h1 class="page-hero-title">Let's plan your <span>perfect AV setup</span></h1>
+            <p class="page-hero-desc">Tell us about your event and our team will recommend the ideal equipment configuration with a quick quote for your Bangalore venue.</p>
+        </div>
+    </div>
+
+    <section class="section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- FORM -->
+                <div class="contact-form-card">
+                    <div class="section-label" style="margin-bottom:8px;">Send a Message</div>
+                    <h2
+                        style="font-family:'Outfit',sans-serif; font-size:1.5rem; font-weight:800; color:var(--text-white); margin-bottom:8px;">
+                        Get a quote in minutes</h2>
+                    <p style="font-size:0.85rem; color:var(--text-dim); margin-bottom:28px;">Fill in your event details and we'll prepare a personalized quote with equipment recommendations via WhatsApp.</p>
+                    <form id="contact-form" onsubmit="submitForm(event)">
+                        <div class="form-group">
+                            <label class="form-label" for="name">Your Name *</label>
+                            <input class="form-input" type="text" id="name" placeholder="e.g. Rahul Sharma" required />
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="phone">Phone Number *</label>
+                            <input class="form-input" type="tel" id="phone" placeholder="+91 98765 43210" required />
+                        </div>
+                        <input type="hidden" id="city" value="bangalore" />
+                        <div class="form-group">
+                            <label class="form-label" for="event-type">Event Type</label>
+                            <select class="form-select" id="event-type">
+                                <option value="" disabled selected>-- Select event type --</option>
+                                <option value="wedding">Wedding</option>
+                                <option value="corporate">Corporate Event</option>
+                                <option value="birthday">Birthday Party</option>
+                                <option value="school">School / College Event</option>
+                                <option value="outdoor">Outdoor Event</option>
+                                <option value="product-launch">Product Launch</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="message">What do you need?</label>
+                            <textarea class="form-textarea" id="message"
+                                placeholder="Briefly describe the equipment you need — e.g. projector + screen + 2 mics for a 200-person event."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-wa"
+                            style="width:100%; justify-content:center; padding:14px;">
+                            📲 Open WhatsApp with this message
+                        </button>
+                        <p style="font-size:0.75rem; color:var(--text-dim); margin-top:10px; text-align:center;">Your
+                            message will open in WhatsApp for our Bangalore team.</p>
+                    </form>
+                </div>
+
+                <!-- CONTACT INFO -->
+                <div>
+                    <div class="section-label" style="margin-bottom:16px;">Contact Our Bangalore Team</div>
+                    <div class="city-contact-card" style="max-width:400px;">
+                        <div class="city-contact-name">🏙 Bangalore</div>
+                        <div class="city-contact-areas">Koramangala, HSR Layout, Whitefield, Indiranagar, Electronic City &amp; all areas</div>
+                        <div class="city-contact-phone"><a href="tel:7008286477">+91 70082 86477</a></div>
+                        <div class="city-contact-actions">
+                            <a href="https://wa.me/917008286477?text=Hi%2C%20I%20need%20AV%20equipment%20in%20Bangalore."
+                                target="_blank" class="btn btn-wa btn-sm">📲 WhatsApp</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand"><a href="index.html" class="nav-logo" style="margin-bottom:16px;">
+                        <img src="Gold_M_Audio_Visuals_Logo.png" alt="OMM Audio Visuals Logo" class="logo-img">
+                        <div class="logo-text">OMM <span>Audio Visuals</span></div>
+                    </a>
+                    <p class="footer-brand-desc">Professional AV equipment on rent in Bangalore.
+                        Delivered, set up, and collected — hassle free.</p>
+                    <div class="footer-contact-item">📧 <a
+                            href="mailto:contact@ommsaudiovisuals.com">contact@ommsaudiovisuals.com</a></div>
+                </div>
+                <div>
+                    <div class="footer-col-title">Equipment</div>
+                    <div class="footer-links"><a href="equipment.html#projector">Projectors</a><a
+                            href="equipment.html#sound">Sound systems</a><a href="equipment.html#mic">Microphones</a><a
+                            href="equipment.html#tv">Televisions</a><a href="equipment.html#combo">Combo packages</a>
+                    </div>
+                </div>
+                <div>
+                    <div class="footer-col-title">Company</div>
+                    <div class="footer-links"><a href="index.html">Home</a><a href="offers.html">Offers</a><a
+                            href="events.html">Events</a><a href="corporate.html">Corporate</a><a
+                            href="contact.html">Contact</a><a href="privacy-policy.html">Privacy Policy</a></div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 OMM Audio Visuals. All rights reserved.</p>
+                <p><a href="privacy-policy.html">Privacy Policy</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() { document.getElementById('mobile-menu').classList.toggle('open'); }
+
+        const cityNumber = '917008286477';
+
+        function submitForm(e) {
+            e.preventDefault();
+            const name = document.getElementById('name').value.trim();
+            const phone = document.getElementById('phone').value.trim();
+            const city = document.getElementById('city').value;
+            const eventType = document.getElementById('event-type').value;
+            const message = document.getElementById('message').value.trim();
+
+            const number = cityNumber;
+            let text = `Hi, I need AV equipment in Bangalore.`;
+            if (name) text += `\nName: ${name}`;
+            if (phone) text += `\nPhone: ${phone}`;
+            if (eventType) text += `\nEvent type: ${eventType}`;
+            if (message) text += `\nDetails: ${message}`;
+
+            window.open(`https://wa.me/${number}?text=${encodeURIComponent(text)}`, '_blank');
+        }
+    </script>
+</body>
+
+</html>

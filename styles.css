@@ -306,7 +306,7 @@ ul { list-style: none; }
 }
 
 /* ============ EQUIPMENT CARDS ============ */
-.equip-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 20px; }
+.equip-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 24px; }
 .equip-card {
   background: var(--bg-card); border: 1px solid var(--border);
   border-radius: var(--radius); padding: 0; overflow: hidden;
@@ -314,10 +314,18 @@ ul { list-style: none; }
 }
 .equip-card:hover { border-color: var(--border-accent); transform: translateY(-4px); box-shadow: var(--shadow-card); }
 .equip-img {
-  height: 160px; background: var(--bg-card2);
+  height: 220px; background: var(--bg-card2);
   display: flex; align-items: center; justify-content: center;
   font-size: 4rem; border-bottom: 1px solid var(--border);
   position: relative; overflow: hidden;
+  padding: 16px;
+}
+.equip-img img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
 }
 .equip-img::before {
   content: ''; position: absolute; inset: 0;
